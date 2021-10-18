@@ -1,6 +1,5 @@
 line = "dakdadnca\na\nada\na"
 t = line.split()
-print(t)
 res = ""
 res1 = ""
 for e in t:
