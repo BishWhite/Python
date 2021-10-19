@@ -6,5 +6,3 @@ for i in L:
 
 
 print(s[:-1])
-# " ".join(str(x).zfill(3) for x in L)
-# 
