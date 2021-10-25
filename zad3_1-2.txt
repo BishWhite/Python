@@ -1,0 +1,23 @@
+#L = [3, 5, 4] ; L = L.sort() wrong use of method
+
+#x, y = 1, 2, 3 too many values to unpack (expected 2)
+
+
+#X = 1, 2, 3 ; X[1] = 4 'tuple' object does not support item assignment
+
+
+#Y = "abc" ; Y.append("d")'str' object has no attribute 'append'
+
+#P = list(map(pow,)) missing argument in pow
+
+
+#for i in "axby": print (ord(i) if ord(i) < 100 else i) ok
+
+#for i in "qwerty":  if ord(i) < 100: print (i) błędne wcięcie po :
+
+x = 2; y = 3;
+if (x > y):
+    result = x;
+else:
+    result = y;
+    # bez średników na końcu wierszy
