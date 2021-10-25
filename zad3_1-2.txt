@@ -15,6 +15,7 @@
 
 #for i in "qwerty":  if ord(i) < 100: print (i) błędne wcięcie po :
 
+
 x = 2; y = 3;
 if (x > y):
     result = x;
