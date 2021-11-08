@@ -3,7 +3,7 @@ X = "qwerty"
 def func():
     print ( X )
 
-func() # wynikiem bedzie wyraz "qwerty" ponieważ funkcja print w funkcji w tym przypadku odnosi się do zmiennej globalnej kodu
+func() # wynikiem bedzie wyraz "qwerty" ponieważ funkcja print w funkcji w tym przypadku odnosi się do zmiennej globalnej kodu.
 
 
 X = "qwerty"
