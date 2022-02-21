@@ -35,4 +35,4 @@ Dla poniższego przykładu przedstawiona jest reprezentacja graficzna.
         [(1,1), (4,3)],
         [(2,200), (3,3)]
 ```
-![alt text](graf.JPG)
+![alt text](graf.JPG "Graf 1")
