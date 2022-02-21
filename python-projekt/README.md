@@ -8,7 +8,7 @@ Rozważamy graf *G*=(V,E), gdzie *V* jest zbiorem wierzchołków grafu i *E* jes
 
 ##### Przebieg algorytmu
 
-    Wierzchołek *s* umieszczamy w kolejce priorytetowej z oszacowaną odległością od źródła równą 0. Do momentu, gdy kolejka nie jest pusta zdejmujemy wierzchołek. Dla każdej nieodwiedzonej krawędzi wykonujemy operacje relaksacji
+Wierzchołek *s* umieszczamy w kolejce priorytetowej z oszacowaną odległością od źródła równą 0. Do momentu, gdy kolejka nie jest pusta zdejmujemy wierzchołek. Dla każdej nieodwiedzonej krawędzi wykonujemy operacje relaksacji
 
 ```python
     def relax(u,v, weight):
