@@ -36,6 +36,7 @@ Dla poniższego przykładu przedstawiona jest reprezentacja graficzna.
         [(2,200), (3,3)]
 ```
 ![alt text](graf.JPG "Graf 1")
+
 Dla grafu G wynikiem operacji dijkstra(G,0), gdzie 0 jest źródłem, z którego szukamy odległości do innych wierzchołków jest lista:
 ```python
     [0, 15, 10, 16, 19]
