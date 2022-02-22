@@ -28,12 +28,13 @@ Algorytm przechodzi przez wszystkie  |*E*| krawędzi grafu i wykonuje potencjaln
 Algorytm przyjmuje graf w postaci listy sąsiedztwa z wagami.
 Dla poniższego przykładu przedstawiona jest reprezentacja graficzna.
 ```python
-    G = [
-        [(1,100), (2,10),],
-        [(0,100), (2,5), (3,1)],
-        [(0,10), (1,5), (4,200)],
-        [(1,1), (4,3)],
-        [(2,200), (3,3)]
+    G = {
+                0:  [(1,100), (2,10),],
+                1:  [(0,100), (2,5), (3,1)],
+                2:  [(0,10), (1,5), (4,200)],
+                3:  [(1,1), (4,3)],
+                4:  [(2,200), (3,3)]
+        }
 ```
 ![alt text](graf.JPG "Graf 1")
 
